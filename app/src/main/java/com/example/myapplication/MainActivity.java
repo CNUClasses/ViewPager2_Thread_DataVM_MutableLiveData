@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         vp=findViewById(R.id.view_pager);
         //create an instance of the swipe adapter
         csa = new ViewPager2_Adapter(this,myVM);
+
         //set this viewpager to the adapter
         vp.setAdapter(csa);
 
